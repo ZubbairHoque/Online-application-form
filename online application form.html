@@ -1,0 +1,26 @@
+<html>
+  <h1 id = "title">Job application form</h1>
+  <body>
+    <form>
+      Firstname:<br>
+      <input type = "text" name = "firstname" id = "firstname" required><br>
+      Surename:<br>
+      <input type = "text" name = "surename" id = "surename" required><br>
+      <br>Date of birth:<br>
+      <input type = "date" name = "date" id = "date" required><br>
+      <br>Email:<br>
+      <input type = "email" name = "email" id = "email" required><br>
+      <br>Phone number:<br>
+      <input type = "tel" name = "phone" id = "phone" required><br>
+      <br>Postcode:<br>
+      <input id="zip" required name="zip" type="text" pattern="[0-9]*">
+      <br>
+      <br>
+      <p>Click on the "Choose File" button to upload your CV:</p>
+      <form action="/action_page.php">
+        <input type="file" id="myFile" required name="filename">
+      </form><br>
+      <input type = "submit" value = "Submit CV">
+      </form>
+  </body>
+</html>
